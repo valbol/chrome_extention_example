@@ -1,0 +1,54 @@
+ <!DOCTYPE html>
+  <html>
+    <head>
+      <style>
+        a.button1{
+          display:inline-block;
+          padding:0.3em 1.2em;
+          margin:0 0.3em 0.3em 0;
+          border-radius:2em;
+          box-sizing: border-box;
+          text-decoration:none;
+          font-family:'Roboto',sans-serif;
+          font-weight:300;
+          color:#FFFFFF;
+          background-color:#4eb5f1;
+          text-align:center;
+          transition: all 0.2s;
+          width: 150px;
+        }
+        a.button1:hover{
+          background-color:#4095c6;
+        }
+
+        button {
+          height: 30px;
+          width: 100px;
+          outline: none;
+        }
+        body {
+          width: 250px;
+          margin: auto;
+        }
+        h2{
+          font-size: 15px;
+          text-align: center;
+        }
+        @media all and (max-width:30em){
+          a.button1{
+            display: block;
+            margin: 0.2em auto;
+          }
+
+        }
+
+      </style>
+    </head>
+    <body>
+      <h2 id="txt"></h2>
+      <h2 id="result">Welcom to Cheaper!</h2>
+      <!--  <button id="findEbay" name="find on Ebay">FIND!</button> -->
+      <a href="#" class="button1" id="findEbay">FIND!</a>
+      <script type="text/javascript" src="popup.js"></script>
+    </body>
+  </html>
